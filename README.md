@@ -53,7 +53,7 @@ Answer Questions: Navigate through questions with intuitive interface
 
 View Results: Get immediate scoring and performance analysis
 
-📊 Live Statistics
+Live Statistics
 
 Questions Database: Extensive collection of curated questions
 
