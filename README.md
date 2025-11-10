@@ -2,7 +2,9 @@
 A web-based quiz application built using HTML, CSS, and JavaScript.
 
 QuizMaster - Interactive Quiz Application
-Project Description
+
+Project Description 
+
 QuizMaster is a dynamic and engaging full-stack web application that allows users to test their knowledge through interactive quizzes. Built with modern web technologies, this platform offers a seamless quiz-taking experience with multiple customization options.
 
 🌟 Key Features
@@ -28,6 +30,7 @@ Database: Efficient MySQL design with proper relationships
 Session Management: PHP sessions for user progress tracking
 
 🎯 How It Works
+
 Select Preferences: Choose your preferred category and difficulty level
 
 Start Quiz: System randomly selects 10 questions based on your choices
@@ -37,6 +40,7 @@ Answer Questions: Navigate through questions with intuitive interface
 View Results: Get immediate scoring and performance analysis
 
 📊 Live Statistics
+
 Questions Database: Extensive collection of curated questions
 
 Multiple Categories: Diverse subject coverage
