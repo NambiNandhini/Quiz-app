@@ -124,7 +124,7 @@ $total_quizzes = $pdo->query("SELECT COUNT(*) as count FROM quiz_sessions")->fet
     <div class="container">
       <div class="section-header fade-in-up">
         <h2>About This Project</h2>
-        <p class="muted">A comprehensive full-stack web application demonstrating modern development practices and clean code architecture.</p>
+        <p class="muted">A thoughtfully crafted learning platform that combines technical excellence with user-friendly design for an engaging educational experience</p>
       </div>
 
       <div class="features-grid">
@@ -133,7 +133,8 @@ $total_quizzes = $pdo->query("SELECT COUNT(*) as count FROM quiz_sessions")->fet
             <i class="fas fa-code"></i>
           </div>
           <h3>Clean Architecture</h3>
-          <p>Built with separation of concerns, MVC patterns, and organized code structure for maintainability and scalability.</p>
+          <p>Developed using core PHP with a simple and clean code structure that is easy to understand and maintain.</p>
+
         </div>
 
         <div class="feature-card fade-in-up delay-1">
@@ -159,38 +160,37 @@ $total_quizzes = $pdo->query("SELECT COUNT(*) as count FROM quiz_sessions")->fet
   <section id="features" class="section">
     <div class="container">
       <div class="section-header fade-in-up">
-        <h2>Application Features</h2>
-        <p class="muted">Comprehensive functionality showcasing full-stack development capabilities</p>
+        <h2>🌟 Why Choose QuizMaster?</h2>
+        <p class="muted">Experience the next generation of interactive learning and skill assessment</p>
       </div>
 
       <div class="features-grid">
         <div class="feature-card fade-in-up">
           <div class="feature-icon">
-            <i class="fas fa-layer-group"></i>
+            <i class="fas fa-graduation-cap"></i>
           </div>
-          <h3>Multiple Categories</h3>
-          <p>Diverse question categories including Web Development, Mathematics, Science, Programming, and General Knowledge.</p>
+          <h3>Comprehensive Learning</h3>
+          <p>Access a vast collection of questions across technology, sciences, mathematics, and general knowledge to expand your expertise.</p>
         </div>
 
         <div class="feature-card fade-in-up delay-1">
           <div class="feature-icon">
-            <i class="fas fa-sliders-h"></i>
+            <i class="fas fa-trophy"></i>
           </div>
-          <h3>Adjustable Difficulty</h3>
-          <p>Three difficulty levels (Easy, Medium, Hard) to accommodate users with different knowledge levels.</p>
+          <h3>Adaptive Challenges</h3>
+          <p>Progress through tailored difficulty levels that match your skill growth, from beginner fundamentals to expert mastery.</p>
         </div>
 
         <div class="feature-card fade-in-up delay-2">
           <div class="feature-icon">
-            <i class="fas fa-chart-line"></i>
+            <i class="fas fa-chart-pie"></i>
           </div>
-          <h3>Progress Tracking</h3>
-          <p>Real-time scoring, performance analytics, and detailed results with question-by-question feedback.</p>
+          <h3>Smart Analytics</h3>
+          <p>Receive detailed performance breakdowns, identify knowledge gaps, and track your learning progress with visual analytics.</p>
         </div>
       </div>
     </div>
   </section>
-
   <!-- Technology Stack -->
   <section id="tech" class="section section-dark">
     <div class="container">
