@@ -1,0 +1,114 @@
+
+
+1. Prerequisites
+
+Install a PHP web server (e.g., XAMPP, WAMP, LAMP).
+
+PHP 7.4 or higher.
+
+MySQL 5.7 or higher.
+
+A modern browser with JavaScript enabled.
+
+2. Download the Project
+
+Clone or download the repository.
+
+Place the project folder in your server web directory:
+
+XAMPP: C:\xampp\htdocs\quiz-app\
+
+WAMP: C:\wamp64\www\quiz-app\
+
+3. Create the Database
+
+Open phpMyAdmin or MySQL CLI.
+
+Create a database named quiz_db.
+
+In phpMyAdmin: click Databases → New → quiz_db → Create.
+
+Or via CLI:
+
+mysql -u root -p
+CREATE DATABASE quiz_db;
+EXIT;
+
+
+Import the SQL File
+
+Import quiz-db.sql into the quiz_db database.
+
+In phpMyAdmin: Select the database → Import → choose quiz-db.sql → Go.
+
+Or via CLI:
+
+mysql -u your_username -p quiz_master < /path/to/quiz-db.sql
+
+
+4. Configure Database Credentials
+
+Open config.php in the project.
+
+Update the constants with your credentials. Example:
+
+define('DB_HOST', 'localhost');
+define('DB_NAME', 'quiz_master');
+define('DB_USER', 'your_username');
+define('DB_PASS', 'your_password');
+
+
+Save the file.
+
+5. Start Server Services
+
+Start Apache (or your web server) and MySQL from your control panel (XAMPP/WAMP).
+
+Make sure both services are running.
+
+6. Project Structure
+text
+quiz-app/
+├── 📄 index.php              # 🏠 Homepage with quiz starter & dashboard
+├── 📄 quiz.php               # ❓ Interactive quiz interface
+├── 📄 results.php            # 📊 Results display & analysis
+├── ⚙️ config.php             # 🔧 Database configuration
+├── 🧩 header.php             # 🔝 Common header component
+├── 🧩 footer.php             # 🔻 Common footer component
+├── 📝 README.md              # 📖 Project documentation
+├── 📄 LICENSE                # ⚖️ MIT License
+├── 📄 .gitignore             # 🚫 Git ignore rules
+├── 📊 quiz-db.sql            # 🗃️ Database schema & sample data
+
+7. Open the App in Browser
+
+Navigate to: http://localhost/quiz-app/index.php
+
+8. Select Quiz Settings
+
+Choose a Category (e.g., Web Development, Mathematics, Science, Programming, General Knowledge) or All Categories.
+
+Choose a Difficulty: Easy / Medium / Hard or All Levels.
+
+Click Start Quiz Now.
+
+9. Take the Quiz
+
+The system will load 10 random questions based on your choices.
+
+For each question: read, select one answer, and click Next.
+
+Use Previous if you want to change an answer.
+
+Monitor progress via the question counter (e.g., “Question 3 of 10”).
+
+10. Submit & View Results
+
+After answering all questions, click Submit.
+
+You will see: total score (X/10), percentage, performance level (Excellent / Good / Average), and time taken (if the timer is enabled).
+
+A detailed view shows which answers were correct and which were incorrect, plus the correct answers for review.
+
+
+
