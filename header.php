@@ -1373,7 +1373,7 @@
         <a href="#about">About</a>
         <a href="#features">Features</a>
         <a href="#tech">Technology</a>
-        <a href="#quiz">Demo</a>
+        <a href="#quiz">Play Quiz</a>
         <a href="#contact">Contact</a>
       </nav>
     </div>
